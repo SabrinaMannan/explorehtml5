@@ -1,0 +1,29 @@
+nav >ul{
+    display: flex;
+}
+
+
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 0px 5px;
+
+}
+nav li a{
+    text-decoration:none;
+    font-size: 30px;
+    color: black;
+}
+
+nav li:hover{
+    background-color: lightgray;
+}
+.dropdown{
+    display: none;
+    position: absolute;
+    background-color: lightyellow;
+    padding: 0; //removes the right side space 
+}
+nav>ul>li:hover>ul{
+    display:block;
+}
